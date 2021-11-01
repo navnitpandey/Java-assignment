@@ -4,10 +4,10 @@ public class Bubble {
 		int arr[]= {32,45,34,67,12,82};
 		for(int i=0;i<arr.length-1;i++) {
 			for(int j=i+1;j<arr.length-1;j++) {
-			//	if(arr[j]>arr[j+1]) {    //if(arr[i]>arr[j]{
-				//	int temp=arr[j];     //int temp=arr[i];
-					//arr[j]=arr[j+1];     //arr[i]=arr[j];
-					//arr[j+1]=temp;  	//arr[j]=temp;
+			//	if(arr[j]>arr[j+1]) {    
+				//	int temp=arr[j]; 
+					//arr[j]=arr[j+1];   
+					//arr[j+1]=temp; 
 					if(arr[i]>arr[j]){
 						int temp=arr[i];
 						arr[i]=arr[j];
@@ -21,3 +21,4 @@ public class Bubble {
 		}
 
 }
+
